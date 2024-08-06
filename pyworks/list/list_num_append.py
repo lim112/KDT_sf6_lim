@@ -12,7 +12,7 @@ print(my_shop)
 print(my_shop[3])
 print(my_shop[3][0])'''
 
-my_shop[3].append(["소니","보스"])
+my_shop.append(["소니","보스"])
 #print(my_shop)
 
 del my_shop[1]

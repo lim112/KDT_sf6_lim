@@ -2,8 +2,11 @@
 num = 10 #10진수
 print( num )
 
-b_num =( 0b1010) #2진수
+b_num =( 0b1011) #2진수
 print(b_num)
+
+o_num = (0o2312)
+print(o_num)
 
 h_num = 0xa #16진수
 print( h_num )
@@ -15,7 +18,6 @@ print( h_num )
 print( hex( 10 ))
 
 #아스키 코드 값
-# ord ()
 print(ord('"'))
 print(ord('0'))
 print(ord("'"))      

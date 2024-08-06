@@ -14,7 +14,7 @@ dupl_count = "banana"
 print(dupl_count.count("a"))
 print("banana".count("a"))
 '''
-
+'''
 #대소문자 만들기
 upper_case = "Hello".upper()
 print(upper_case)
@@ -39,3 +39,11 @@ print(q)
 #특정한 문자를 변경 - replace(old, new)
 msg = "hello python"
 print(msg.replace("python", "c++"))
+'''
+#0806
+input_num = input("숫자 입력 : ").split(" ")
+numbers = []
+for i in input_num:
+    numbers.append(int(i))
+print(input_num)
+print(numbers)
