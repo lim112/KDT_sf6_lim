@@ -36,8 +36,8 @@ def order_product(product, count):
         return product * count + 2500
     else :
         return product * count
-price1 = order_product(int(input("상품 1 가격을 입력해주세요")),int(input('상품의 수량을 입력해주세요'))
-price2 = order_product(input("상품 1 가격을 입력해주세요"), input('상품의 수량을 입력해주세요'))
+price1 = order_product(int(input("상품 1 가격을 입력해주세요 ")), int(input('상품의 수량을 입력해주세요 ')))
+price2 = order_product(int(input("상품 2 가격을 입력해주세요 ")), int(input('상품의 수량을 입력해주세요 ')))
 print(f'상품1 가격 : {format(price1, ',d')}원')
 print(f'상품2 가격 : {format(price2, ',d')}원')
 
