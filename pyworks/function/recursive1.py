@@ -16,18 +16,21 @@ def sos(n):
 sos(5)'''
 
 #팩토리얼 계산
-def facto1(n):
-#재귀함수를 사용하지 않는 방식
-    f = 1
-    for i in range(1, n):
-        f *= i
-    print(f)
-facto1(5)
+# def facto1(n):
+# #재귀함수를 사용하지 않는 방식
+#     f = 1
+#     for i in range(1, n):
+#         f *= i
+#     print(f)
+# facto1(5)
 
-def facto(n):
-    if n == 1:
+def facto(navasdf):
+    if navasdf == 1:
         return 1 #종료조건, 종료조건은 충분히 작을것
     else:
-        return n * facto(n-1)
+        return navasdf * facto(navasdf-1)
+
+nasdf = 3
+print(globals())
 
 print(facto(5))

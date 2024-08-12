@@ -1,5 +1,4 @@
 #리스트를 매개 변수로 사용 함수
-
 v = [1,2,3,4]
 def times(a):
     a2 = []
@@ -8,7 +7,7 @@ def times(a):
     return a2
 v2 = times(v)
 #a와 v, 매개변수의 단어는 달라도 대입된다 호출 안에 들어가는게 중요
-print(v2)
+print(v2) #[3, 6, 9, 12]
 
 #다른 방식
 def times2(a):
@@ -16,5 +15,5 @@ def times2(a):
     return a2
 
 v3 = times2(v)
-print(v2)
+print(v2) #[3, 6, 9, 12]
 

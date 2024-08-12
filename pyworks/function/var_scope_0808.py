@@ -1,9 +1,9 @@
 # 변수의 유효범위
 # 전역 - 전체에 영향을 미침 (정적 변수)
-# 지역 - 함수나 제어문(if,반복문)내에서 영향을 미친다, 빠져나오면 소멸한다 , 처음에 생성될때는 지역변수로 생성된다 하지만
+# 지역 - 함수나 제어문(if,반복문)내에서 영향을 미친다, 함수나 제어문을 빠져나오면 소멸한다 , 처음에 생성될때는 지역변수로 생성된다 하지만
 
 # 상품 가격 = 단위당 가격 + 수량
-'''quantity = 2
+quantity = 2
 def get_price():
     price = 4000 * quantity
     return price
@@ -29,7 +29,9 @@ def product_price():
             delivery = i
             print('상품 2 가격 :', delivery)
 
-product_price()'''
+product_price()
+
+print( )
 
 def order_product(product, count):
     if product * count < 20000 :

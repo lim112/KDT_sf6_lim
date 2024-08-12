@@ -42,27 +42,23 @@ check_m = check_machin(input('어떤 음료수를 찾으세요?'))
 #이렇게만 쓰면 리턴값이 어떤지 확인할 수 없기 때문에 아래 코드를 추가한다
 print(f'해당 음료수는 {check_m}')'''
 
-
+count = 0
 while True:
-    count = 0
+    #global count
     print(1)
-    print(count)
-    count += 1
-    if count > 10:
+   # count += 1
+   ''' if count > 10:
         while True:
             count += 2
             print(2)
-            print(count)
             if count > 20:
                 while True:
                     count += 3
                     print(3)
-                    print(count)
                     if count > 30:
                         while True:
                             count += 3
                             print(4)
-                            print(count)
                             if count < 40:
                                 break
                             print(5)
@@ -70,9 +66,9 @@ while True:
                     print(6)
                     break
             print(7)
-            break
+            break'''
     print(8)
-    break
+    #break
 #while True 에서 break를 쓸때 한겹만 벗겨질까?
 
 #각각을 함수를 자유롭게 옮겨다니려면 함수안에 함수를 만들던가 매개변수를 만드는게 나을듯

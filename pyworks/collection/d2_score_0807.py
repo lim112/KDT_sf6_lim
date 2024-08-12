@@ -19,10 +19,12 @@ lang = 0
 sum_subject = [0,0]
 avg_subject = [0,0]
 #반전체의 과목별 총점
+
 for i in range(len(score)):
     sum_subject[0] += score[i][0]
     #복합대입 연산자를 사용할때는 전역변수 사용
     sum_subject[1] += score[i][1]
+
 print(sum_subject) #[335, 390]
 
 avg_subject[0] = sum_subject[0] / len(score[0])

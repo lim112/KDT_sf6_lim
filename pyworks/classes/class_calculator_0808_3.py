@@ -20,9 +20,7 @@ for i in range(3):
 c2 = Calculator()
 print(c2.x)
 print(c2.add(20)) #10 더하기
-print(c2.sub(5))
+print(c2.sub(5)) #15
 
-for i in range(3):
-    if c1.x > 6:
-        print(c1.x) #'7' 출력, c1.x는 전역변수로 저장되는걸까? ㄴㄴ 맴버 변수, 사실 아직 잘 모르겠다 보강 필요
+#print(globals())
 

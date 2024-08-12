@@ -28,3 +28,4 @@ a5 =[] #표현식 반복문 조건
 a5 = [i*3 for i in a2 if i % 2 == 0]
 print("a5 = ", a5) #a5 =  [6, 12] 출력
 
+print(i*3 for i in a2 if i % 2 == 0)

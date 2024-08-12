@@ -10,7 +10,7 @@ def greeting(name):
 
 #메인 영역(실행 영역)
 greet() #안녕~~
-# #함수 호출
+#함수 호출
 
 greeting(name[0]) #안녕~ gustn
 #문자가 매개변수가 되어 대입
@@ -22,7 +22,6 @@ def is_gugu(dan):
 
 #구구단 호출
 is_gugu(8)
-
 
 def add(x,y):
     sum_v = x + y
