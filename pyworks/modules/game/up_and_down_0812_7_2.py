@@ -1,36 +1,33 @@
-#  숫자 추측 게임 (범위 : 1 ~ 100 )
+# 숫자 추측 게임 (범위 : 1 ~ 100 )
 import random
-# count = 0
-# #컴의 랜덤값
-# num_rand = random.randint(1,100)
-# while True:
-#     count += 1
-    #try:
-    #     if count == 1:
-    #         choice_num = int(input(f'숫자 입력([{count}]회 1 ~100 : '))
-    #         if choice_num == num_rand:
-    #             break
-    #     else:
-    #         if choice_num > num_rand:
-    #             print('랜덤수보다 커요')
-    #             choice_num = int(input(f'숫자 입력([{count}]회 {choice_num} ~100 : '))
-    #         elif choice_num < num_rand:
-    #             print('랜덤수보다 작아요')
-    #             choice_num = int(input(f'숫자 입력([{count}]회 {choice_num} ~100 : '))
-    #         if choice_num == num_rand:
-    #             break
-    #     if choice_num > 100 or choice_num < 0 :
-    #         print('입력 범위를 초과 했어요')
-    #         if choice_num > 100 :
-    #             choice_num == 100
-    #         elif choice_num < 0:
-    #             choice_num == 0
-    #except:
-       # print('숫자만 입력해주세요')
-#
-# print('정답입니다')
-# print(f'정답 : {num_rand}')
-# print(f'점수 : {100 - ( count - 1 ) * 10}')
+count = 0
+#컴의 랜덤값
+num_rand = random.randint(1,100)
+while True:
+    count += 1
+    try:
+        if count == 1:
+            choice_num = int(input(f'숫자 입력([{count}]회 1 ~100 : '))
+            if choice_num == num_rand:
+                break
+        else:
+            if choice_num > num_rand:
+                print('랜덤수보다 커요')
+                choice_num = int(input(f'숫자 입력([{count}]회 {choice_num} ~100 : '))
+            elif choice_num < num_rand:
+                print('랜덤수보다 작아요')
+                choice_num = int(input(f'숫자 입력([{count}]회 {choice_num} ~100 : '))
+            if choice_num == num_rand:
+                break
+        if choice_num > 100 or choice_num < 0 :
+            print('입력 범위를 초과 했어요')
+            if choice_num > 100 :
+                choice_num == 100
+            elif choice_num < 0:
+                choice_num == 0
+    except:
+       print('숫자만 입력해주세요')
+
 
 # 리더님 버전
 com = random.randint(1,100)

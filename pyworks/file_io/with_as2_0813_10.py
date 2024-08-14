@@ -5,4 +5,9 @@ with open('./source/city.txt', 'w') as f:
 
 with open('./source/city.txt', 'r') as f:
     team = f.read()
-    print(team)
+    print(team) # 서울
+                # 인천
+                # 부산
+                # 광주
+                # 대전
+                # 대구

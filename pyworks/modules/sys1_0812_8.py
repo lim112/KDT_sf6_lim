@@ -1,13 +1,11 @@
 # 명령행(command line)에서 인수 전달
 import sys
-
 print(sys.argv)
-
 # argv 속성은 입력된 자료를 리스트로 반환
-
 args = sys.argv[1:] # 0번 제외 - 파일 이름
+
 # 터미널에서 python sys1_0812_8.py dog을 입력하면 [sys1_0812_8.py, dog]으로 리스트에 담김
-# python 뒤 처음은 파일 이름이 올것
+# python 뒤 처음은 파일 이름이 올 것
 print(args)
 
 # 입력값의 합계와 평균 계산
