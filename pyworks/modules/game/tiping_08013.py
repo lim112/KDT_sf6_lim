@@ -3,8 +3,9 @@ words = [
     'sky', 'shirt','moon','earth', 'tree', 'apple','grape', 'garlic', 'onion', 'potato'
 ]
 
-n = 1
 collects = []
+start_t = time.time()
+count = 1
 while count < 11:
     print(f'문제 {count}')
     question = random.choice(words)

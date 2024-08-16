@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 언어 설정을 위해 -->
+    <title>서버에서 데이터 받기</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">home</a>
+            <a href="/season">계절(season)</a>
+            <a href="/loop">루프</a>
+            <a href="/calc">짝수/홀수 판정</a>
+        </nav>
+    </header>
+    <section>
+        <h2>서버에서 데이터 받기</h2>
+        <h3>현재 계절 : {{season}}</h3>
+        <!-- 목록 <ul></ul>순서가 없는 리스트 <li></li>-->
+        <ul>
+            <li>봄</li>
+            <li>여름</li>
+            <li>가을</li>
+            <li>겨울</li>
+        </ul>
+        <ul>
+            {% for season in seasons %}
+                <li>{{ season }}</li>
+            <!--위의 것과 출력은 같지만 이건 다른 서버에서 정보를 받아오는 것 -->
+            {% endfor %}
+        </ul>
+    </section>
+</body>
+</html>
