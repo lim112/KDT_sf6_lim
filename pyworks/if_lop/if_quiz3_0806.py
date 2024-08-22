@@ -35,6 +35,6 @@ print(input_num)
 
 max_num = max(numbers)
 min_num = min(numbers)
-numbers= numbers.remove(max_num)
-remove_numbers = numbers.remove(min_num)
+numbers = numbers.remove(max_num)
+numbers = numbers.remove(min_num)
 print(sum(remove_numbers) / len(remove_numbers))
