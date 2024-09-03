@@ -15,6 +15,9 @@ value.set(10)
 
 Button(root, text='확인', command=click).grid(row = 0, column = 0)
 
-text = Text(root, width=2, height=1)
+text = Text(root, width=10, height=1)
+text.grid(row=1, column=0)
 text
 root.mainloop()
+
+

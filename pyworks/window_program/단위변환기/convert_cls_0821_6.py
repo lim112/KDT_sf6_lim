@@ -2,7 +2,7 @@
 # from tkinter import *
 # from window_program.단위변환기.scale_converter_0820_8 import ScaleConverter
 # from tkinter import *
-import Sca
+import scale_converter_0820_8
 #
 # class App(ScaleConverter):
 #     def __init__(self, root):
@@ -45,7 +45,7 @@ import Sca
 
 # 클래스 샘플 - 객체를 생성해서 버튼 이벤트 구현
 from tkinter import *
-from window_program.단위변환기.scale_converter import ScaleConverter
+from scale_converter_0820_8 import ScaleConverter
 
 class App:
     def __init__(self, root):
