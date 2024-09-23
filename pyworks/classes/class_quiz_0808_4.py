@@ -17,12 +17,12 @@ class Calculator:
         else:
             print('0으로 나눌수 없습니다')
             return sys.exit() #바로 나가게 만드는
-if __name__ == '__main__':
-    c1 = Calculator(int(input('첫번째 수 ')),int(input('두번째 수 ')))
-    print(f'{c1.add()} = {c1.y} + {c1.z}')
-    print(f'{c1.sub()} = {c1.y} - {c1.z}')
-    print(f'{c1.mul()} = {c1.y} * {c1.z}')
-    print(f'{c1.div()} = {c1.y} / {c1.z}')
+# if __name__ == '__main__':
+c1 = Calculator(int(input('첫번째 수 ')),int(input('두번째 수 ')))
+print(f'{c1.add()} = {c1.y} + {c1.z}')
+print(f'{c1.sub()} = {c1.y} - {c1.z}')
+print(f'{c1.mul()} = {c1.y} * {c1.z}')
+print(f'{c1.div()} = {c1.y} / {c1.z}')
 
 #0809_2 실습 3
 class supermarket:
@@ -47,16 +47,16 @@ class supermarket:
 
 market = supermarket('마포구','마켓온', '음료', 2)
 
-if __name__ == '__main__':
-    # '__main__'는 해당 창이라는걸 말해주는 것
-    market_info = market.show_info() #위치 : 마포구, 이름 : 마켓온, 상품 : 음료, 고객수 : 2
-    print(market.enter_customer()) #3
-    market_customer = market.enter_customer()
-    market_place = market.print_location() #위치 : 마포구
-    market_product = market.show_list() #음료
-    market_info = market.show_info() #위치 : 마포구, 이름 : 마켓온, 상품 : 음료, 고객수 : 4
-    market_change = market.change_category('에너지바')
-    print(market_change) #에너지바
+# if __name__ == '__main__':
+# '__main__'는 해당 창이라는걸 말해주는 것
+market_info = market.show_info() #위치 : 마포구, 이름 : 마켓온, 상품 : 음료, 고객수 : 2
+print(market.enter_customer()) #3
+market_customer = market.enter_customer()
+market_place = market.print_location() #위치 : 마포구
+market_product = market.show_list() #음료
+market_info = market.show_info() #위치 : 마포구, 이름 : 마켓온, 상품 : 음료, 고객수 : 4
+market_change = market.change_category('에너지바')
+print(market_change) #에너지바
 
 class Calculator1:
     def __init__(self):

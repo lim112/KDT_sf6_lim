@@ -1,7 +1,14 @@
 # 모듈(module) 불러오기
 import sys
 
+# from classes.class_quiz_0808_4 import Calculator
+# from .class_quiz_0808_4 import Calculator
+# from classes.class_quiz_0808_4 import Calculator
+import sys
+# sys.path.append('c:/KDT_SF6/pyworks/classes')  # classes 폴더 경로 추가
+# from .class_quiz_0808_4 import Calculator
 from classes.class_quiz_0808_4 import Calculator
+
 calc = Calculator(5,4)
 print(calc.add())
 print(calc.div())
